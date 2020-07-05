@@ -11,7 +11,7 @@ export default class App extends React.Component{
       // city: "Podolsk",
       city: "Moscow",
       currentWeather: null,
-      REACT_APP_API_URL:'http://api.openweathermap.org/data/2.5',
+      REACT_APP_API_URL:'https://api.openweathermap.org/data/2.5',
       REACT_APP_API_KEY:'63ce596fa93b679e9353a67f97bf99f1',
       units: 'metric',
       cityId: '',
