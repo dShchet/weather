@@ -1,0 +1,48 @@
+.today{
+    position: relative;
+    color: #fff;
+    text-align: center;
+}
+.today__weather{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.today__icon {
+    color: #fff ;
+    font-size: 50px
+}
+.today__desc{    
+    font-size: 23px;
+    margin-bottom: 10px;
+}
+.today__details{    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.today__details div{
+    padding-left: 15px;
+}
+.today__city{    
+    font-size: 30px;
+}
+.today__temp{     
+    font-size: 60px;
+    margin: 0px 15px;
+}
+.today__units{
+    display: flex;
+    flex-direction: column;
+}
+.today__unitsBtn{
+    background: transparent;
+    color: #fff;
+    border: none;
+    font-size: 25px;
+    outline: none;
+    cursor: pointer;
+}
+.today__unitsBtn_off{
+    opacity: 0.5;
+}

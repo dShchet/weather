@@ -1,0 +1,21 @@
+.forecast{
+    position: relative;
+    padding: 0px 20px;
+}
+.forecast__icon {
+    color: #fff ;
+    font-size: 50px;
+    margin: 15px 0px 5px;
+}
+.swiper-container {
+    width: 1000px;
+    height: 200px;
+}
+.forecast__item{
+    width: 120px;
+    float: left;
+    color: #fff;
+}
+.forecast__temp{
+    font-size: 30px;
+}

@@ -1,0 +1,10 @@
+.search{
+    position: absolute;
+    width: 100%;
+    height: 35px;
+    background: #000;
+    vertical-align: middle;
+    position: relative;
+}
+.search__wrap{
+    float: right;}
